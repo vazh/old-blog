@@ -1,0 +1,21 @@
+baseurl = "http://vazh.github.io"
+languageCode = "en-US"
+title = "It's Me, VAZH"
+theme = "hpstr"
+pluralizelisttitles = false
+PygmentsCodeFences = true
+Paginate = 5
+disqusShortname = "vazhdrevo"
+googleAnalytics = "UA-87075507-1"
+
+[params]
+	subtitle = "a personal blog to contain my way of doing things, primarily around computer & programming"
+	[params.author]
+		name = "VAZH"
+		avatar = "/images/profile.JPG"
+		bio = "bla bla bla bla bla bla bla bla bla bla bla bla bla"
+		github = "vazh"
+	[params.image]
+	  feature = "/images/bg-image.JPG"
+	  #credit = "dargadgetz"
+	  #creditlink = "http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/"
