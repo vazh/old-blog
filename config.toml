@@ -1,0 +1,44 @@
+baseurl = "http://vazh.github.io"
+relativeURLs = false
+title = "It's Me, VAZH"
+languageCode = "en-us"
+theme = "hugo-geo"
+pygmentsStyle = "native"
+newContentEditor = "vim"
+PygmentsCodeFences = true
+paginate = 5
+disqusShortname = "vazhdrevo"
+googleAnalytics = "UA-87075507-1"
+
+[taxonomies]
+	tag = "tags"
+	tutorial = "tutorials"
+
+[params]
+	showglobe = true
+	
+  analytics = "UA-87075507-1"
+	
+  github = "https://github.com/vazh"
+	twitter = "https://twitter.com/vazhdrevo"
+	linkedin = "https://www.linkedin.com/in/muhammad-hariz-faza"
+	email = "m.hariz.faza@gmail.com"
+  #stackoverflow = "users/4380777/vazh"
+	
+	profilepic = "img/profile.JPG"
+	
+	title = "VAZH"
+	subtitle = "a personal blog to contain my way of doing things, primarily around computer & programming"
+	
+	[[params.navlinks]]
+	name = "About"
+	url = "about"
+	
+	[[params.navlinks]]
+	name = "Blog"
+	url = ""
+	
+	[[params.navlinks]]
+	name = "Tutorials"
+	url = "tutorial/"
+
