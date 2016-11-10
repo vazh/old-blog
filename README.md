@@ -1,3 +1,6 @@
 # This is Main repository for my blog.
 ### Generated using Hugo.
-### Using HPSTR Themes by mmistakes, ported by dldx
+### Using hugo-geo theme by [alexurquhat][1]
+
+
+[1]: https://github.com/alexurquhart

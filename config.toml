@@ -1,24 +1,44 @@
 baseurl = "http://vazh.github.io"
-languageCode = "en-US"
+relativeURLs = false
 title = "It's Me, VAZH"
-theme = "hpstr"
-pluralizelisttitles = false
+languageCode = "en-us"
+theme = "hugo-geo"
+pygmentsStyle = "native"
+newContentEditor = "vim"
 PygmentsCodeFences = true
-Paginate = 5
+paginate = 5
 disqusShortname = "vazhdrevo"
 googleAnalytics = "UA-87075507-1"
 
+[taxonomies]
+	tag = "tags"
+	tutorial = "tutorials"
+
 [params]
+	showglobe = true
+	
+  analytics = "UA-87075507-1"
+	
+  github = "https://github.com/vazh"
+	twitter = "https://twitter.com/vazhdrevo"
+	linkedin = "https://www.linkedin.com/in/muhammad-hariz-faza"
+	email = "m.hariz.faza@gmail.com"
+  #stackoverflow = "users/4380777/vazh"
+	
+	profilepic = "img/profile.JPG"
+	
+	title = "VAZH"
 	subtitle = "a personal blog to contain my way of doing things, primarily around computer & programming"
-	[params.author]
-		name = "VAZH"
-		avatar = "/images/profile.JPG"
-		bio = "bla bla bla bla bla bla bla bla bla bla bla bla bla"
-    email = "m.hariz.faza@gmail.com"
-		github = "vazh"
-    #stackoverflow = "users/4380777/vazh"
-    linkedin = "muhammad-hariz-faza"
-	[params.image]
-	  feature = "/images/bg-image.JPG"
-	  #credit = "dargadgetz"
-	  #creditlink = "http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/"
+	
+	[[params.navlinks]]
+	name = "About"
+	url = "about"
+	
+	[[params.navlinks]]
+	name = "Blog"
+	url = ""
+	
+	[[params.navlinks]]
+	name = "Tutorials"
+	url = "tutorial/"
+
